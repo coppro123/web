@@ -1,0 +1,107 @@
+/*Reset CSS*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('/assets/font/Poppins-Regular.ttf') format('truetype');
+    /* You can also include other font formats (e.g., woff, woff2) for better compatibility */
+}
+
+.body{
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.main{
+    background-color: rgb(40, 43, 45);
+    height: 5000px;
+    display: flex;  
+}
+
+.home{
+    display: inline-block;
+}
+
+.header{
+    width: 25%;
+    right: 0;
+    top: 0;
+    position: fixed;
+}
+
+.nav-holder{
+    background-color: rgb(40, 43, 45);
+    height: 100vh;  
+    padding-top: 50px;
+    padding-left: 40px;
+    padding-bottom: 30px;   
+}
+
+.nav-wrapper .nav-items li{
+    list-style-type: none;
+    text-transform: uppercase;
+    line-height: 24px;
+}
+
+.nav-wrapper .nav-items a{
+    text-decoration: none;
+    padding: 5px 0;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    color: #e6e6f0;
+    line-height: 1.7;
+    font-weight: 600;
+    letter-spacing: 1px;
+    display: inline-block;
+}
+
+.nav-logo{
+    width: 140px;
+    height: 140px;
+    margin-bottom: 60px;
+}
+
+/*Begin Home*/
+.content{
+    width: 75%;
+    margin-top: 50px;
+}
+
+.content-home{
+    margin-bottom: 200px;
+    display: flex;
+}
+
+.content-home-tile{
+    width: calc(100% - 625px);
+    height: 500px;
+    display: inline-block;
+}
+
+.home-name{
+    transform: rotate(-90deg);
+    color: #6db363;
+    font-size: 30px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    height: 90%;
+}
+
+.content-home-avatar{
+    box-shadow: -23px 32px 0px 0px #1F2223;
+    display: inline-block;
+}
+
+.content-home-avatar img{
+} 
+
+
+.content-about{
+    width: 100%;
+    height: 500px;
+    background-color: yellow;
+}     
